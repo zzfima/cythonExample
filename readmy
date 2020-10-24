@@ -1,0 +1,9 @@
+1. pip install --upgrade setuptools
+2. Install Microsoft Build Tools for Visual Studio 2019.
+https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019
+Visual C++ Build tools core features.
+VC++ 2017 v141 toolset (x86,x64)
+Visual C++ 2017 Redistributable Update
+Windows 10 SDK (10.0.16299.0) for Desktop C++
+
+3. python setup.py build_ext --inplace
